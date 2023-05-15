@@ -22,6 +22,7 @@ public class CalculatorController {
     }
 
     // example http://localhost:8080/calculate?salary=100000&vacationDays=15
+
     @GetMapping("/calculate")
     public BigDecimal calculatePay(@RequestParam(name = "salary") BigDecimal salary, // Годовая зарплата
                                    @RequestParam(name = "vacationDays") Integer vacationDays,//дней в отпуске

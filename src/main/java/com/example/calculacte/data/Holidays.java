@@ -26,4 +26,5 @@ public class Holidays {
                 Month.JUNE, List.of(12),
                 Month.NOVEMBER, List.of(4));
     }
+
 }
